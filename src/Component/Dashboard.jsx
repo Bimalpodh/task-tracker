@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { UserContext } from "../App";
+import { UserContext } from "../context/userContext";
 import {
   loadUserTasks,
   saveUserTasks,
@@ -102,7 +102,7 @@ const addTask = (task) =>
           <div className="user-info">
             <img
               className="profile"
-               src="public/men.jpg"
+               src={"/men.jpg"}
               alt="profile"
             />
             <h2>Welcome, {username}</h2>

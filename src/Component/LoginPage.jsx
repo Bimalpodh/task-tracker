@@ -1,7 +1,8 @@
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { setCurrentUser } from "../utils/localStoarage";
-import { UserContext } from "../App";
+import { UserContext } from "../context/userContext";
+
 
 const LoginPage = () => {
   const [name, setName] = useState("");
@@ -21,7 +22,7 @@ const LoginPage = () => {
     <div className="login-page">
       <div className="login-card">
         <div className="login-image">
-          <img src="public/men.jpg"  alt="Welcome" />
+          <img src="/men.jpg"  alt="Welcome" />
         </div>
 
         <form className="login-form" onSubmit={handleLogin}>

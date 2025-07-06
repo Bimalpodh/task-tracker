@@ -1,12 +1,10 @@
 /* eslint-disable react-refresh/only-export-components */
-import React, { useState, useEffect, createContext } from "react";
+import React, { useState, useEffect } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import LoginPage from "./Component/LoginPage";
 import Dashboard from "./Component/Dashboard";
 import { getCurrentUser } from "./utils/localStoarage";
-
-// Context to share user globally
-export const UserContext = createContext();
+import { UserContext } from "./context/userContext";
 
 const App = () => {
   const [username, setUsername] = useState(getCurrentUser());
@@ -34,9 +32,7 @@ const App = () => {
         />
         <Route
           path="/dashboard"
-          element={
-            username ? <Dashboard /> : <Navigate to="/" replace />
-          }
+          element={username ? <Dashboard /> : <Navigate to="/" replace />}
         />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

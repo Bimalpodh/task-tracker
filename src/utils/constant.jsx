@@ -1,0 +1,1 @@
+export const IMG_URL="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Factivity-men-daily-life-office-workplace-cartoon-character-vector-illustration_402044180.htm&psig=AOvVaw0PcIdcBZZtBBflrLu6vOEO&ust=1751920253844000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPDHk9WJqY4DFQAAAAAdAAAAABAE";
