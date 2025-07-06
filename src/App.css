@@ -208,6 +208,8 @@ body {
   background-color: #ffffff;
   border-left: 6px solid #007bff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  color: #141414;
+  
 
   &.completed {
     opacity: 0.6;
@@ -217,6 +219,14 @@ body {
 
     .status-label {
       color: #28a745;
+    }
+  }
+  div{
+    h3{
+      color: #29a18d;
+    }
+    p{
+      font-weight: bold;
     }
   }
 

@@ -9,7 +9,7 @@ const TaskItem = ({ task, onToggle, onEdit, onDelete }) => {
     >
       <div>
         <h3>{task.title}</h3>
-        <p>{task.description}</p>
+        <p className="task-desc">{task.description}</p>
          <small className={`priority-label ${task.priority?.toLowerCase()}`}>
           Priority: {task.priority}
         </small>
