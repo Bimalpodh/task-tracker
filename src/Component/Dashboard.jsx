@@ -45,7 +45,7 @@ const addTask = (task) =>
     {
       ...task,
       id: Date.now(),
-      createdAt: new Date().toISOString(), // ✅ added creation date
+      createdAt: new Date().toISOString(), 
     },
   ]);
 
@@ -102,7 +102,7 @@ const addTask = (task) =>
           <div className="user-info">
             <img
               className="profile"
-              src="src/assets/profile.png"
+               src="public\men.jpg"
               alt="profile"
             />
             <h2>Welcome, {username}</h2>
