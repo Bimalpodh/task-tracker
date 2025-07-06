@@ -135,23 +135,23 @@ A modern and fully-featured Task Tracking web application built with **React.js*
 
 ### Login Page
 
-![Login Page](./screenshots/login.png)
+![Login Page](./src/assets/Loginpage.png)
 
 ### Dashboard - Light Mode
 
-![Dashboard Light](./screenshots/dashboard-light.png)
+![Dashboard Light](./src/assets/Dashboard.png)
 
 ### Dashboard - Dark Mode
 
-![Dashboard Dark](./screenshots/dashboard-dark.png)
+![Dashboard Dark](./src/assets/dasboardDark.png)
 
 ### Task Form
 
-![Task Form](./screenshots/task-form.png)
+![Task Form](./src/assets/TaskItemUi_Highpriority.png)
 
 ### Footer
 
-![Footer](./screenshots/footer.png)
+![Footer](./src/assets/dasboardDark.png)
 
 ---
 
