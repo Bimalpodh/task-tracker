@@ -21,7 +21,7 @@ const LoginPage = () => {
     <div className="login-page">
       <div className="login-card">
         <div className="login-image">
-          <img src="public\men.jpg"  alt="Welcome" />
+          <img src="public/men.jpg"  alt="Welcome" />
         </div>
 
         <form className="login-form" onSubmit={handleLogin}>
