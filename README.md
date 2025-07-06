@@ -101,15 +101,18 @@ A modern and fully-featured Task Tracking web application built with **React.js*
 
 ## 📁 Project Structure
 
+![Folder Structure](./src/assets/folderStructure%20(1).png)
+
 ```bash
 /src
   /components
     - Dashboard.jsx
+    - DarkModeToggle.jsx
+    - LoginPage.jsx
     - TaskForm.jsx
     - TaskList.jsx
     - TaskFilter.jsx
     - Footer.jsx
-    - DarkModeToggle.jsx
     - TaskItem.jsx
   /assets
     - profile.png
