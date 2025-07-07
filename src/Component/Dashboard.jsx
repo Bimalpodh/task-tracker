@@ -102,7 +102,7 @@ const addTask = (task) =>
           <div className="user-info">
             <img
               className="profile"
-               src={"/men.jpg"}
+               src="men.jpg"
               alt="profile"
             />
             <h2>Welcome, {username}</h2>
